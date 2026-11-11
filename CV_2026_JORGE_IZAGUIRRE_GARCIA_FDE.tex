@@ -47,7 +47,7 @@ Computer Engineer (UPM, thesis 9.6/10) who takes AI systems from client discover
 
 \subsection*{\hspace{0.25cm} AI Engineer at Galileo Studio. 07/2026--Present \normalfont{(AI Engineering Intern 02/2026--07/2026)}}
 
-\noindent\textbf{Pyramid --- law firm managing traffic fines.} Lead engineer \& architect, 03/2026--Present.
+\noindent\textit{Project: Pyramid (client: law firm managing traffic fines). My role: lead engineer \& architect, 03/2026--Present.}
 \begin{itemize}
     \item Designed and built an AI pipeline that classifies inbound emails, extracts fine data (OCR + schema-constrained LLM output) and files it into the client's systems via their APIs, Microsoft Graph and Power Automate. Python, AWS Lambda/SQS/DynamoDB/S3/Textract, OpenAI, Terraform, CodePipeline.
     \item $\sim$8,400 emails/month in production at a 99\% success rate. Raised fully hands-off automation from 0\% to $\sim$57\% in 4 months by mining production KPIs for automatable clusters; handling time cut from $\sim$10 to 2--3 min per email, taking the client's team from 6 to 2 people ($\sim$1,000 h/month saved).
@@ -56,7 +56,7 @@ Computer Engineer (UPM, thesis 9.6/10) who takes AI systems from client discover
     \item Owned production: traced recurring CloudWatch failures to a payload limit in the client's API, aligned with their tech team, measured quality loss and shipped 10\,MB$\rightarrow$1\,MB document compression with no measurable degradation. Runs a nightly reviewer agent that audits code and logs and files issues.
 \end{itemize}
 
-\noindent\textbf{Kura --- Galileo's compliance-audit SaaS (alpha).} Top backend contributor, 09/2026--Present.
+\noindent\textit{Project: Kura (Galileo's own compliance-audit SaaS, alpha). My role: top backend contributor, 09/2026--Present.}
 \begin{itemize}
     \item Re-architected a hardcoded single-framework app (criminal compliance) into a multi-vertical platform driven by declarative YAML: data model, API, schema-generated UI, auto-generated MCP tools and CI compatibility gates, shipped in $\sim$7 working days. Built a POC first to win buy-in from non-technical leadership.
     \item Built an AI interview-driven skill that generates new verticals in $\sim$10 min with no code or migrations; used to add China MLPS (myself), ISO 27001 and France Sapin II (teammates).
@@ -64,7 +64,7 @@ Computer Engineer (UPM, thesis 9.6/10) who takes AI systems from client discover
     \item 41\% of backend PRs in the last month ($\sim$74 PRs in 6 weeks), in a CI pipeline with strict typing and a 688-test RLS security suite. Co-designed features with compliance experts and demoed the architecture to the technical team.
 \end{itemize}
 
-\noindent\textbf{Other client deliveries}
+\noindent\textit{Other Galileo client projects}
 \begin{itemize}
     \item \textbf{Acatia} (whistleblowing SaaS, $\sim$125 tenants): designed the AWS infrastructure-as-code (Terraform: Lambda/Bref, RDS Proxy, CloudFront, API Gateway, VPC) and the migration cost analysis; cut local API latency from $\sim$11\,s to $\sim$1.5\,s; built a multi-tenant superadmin portal.
     \item \textbf{Vibralo} (event ticketing): migrated the payment gateway (Paylands $\rightarrow$ Redsys); ran a security audit and fixed the findings (unauthenticated endpoints, RLS gaps, SSRF, leaked service key, double-refund race condition, overselling).
